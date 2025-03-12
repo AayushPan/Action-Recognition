@@ -34,6 +34,7 @@ The following action classes were selected from these datasets to train the mode
 8. **Falling on Floor** - HMDB51 (original folder: "fall_floor")
 9. **Talking** - HMDB51 (original folder: "talk")
 10. **Writing on Board** - UCF101 (original folder: "WritingOnBoard")
+<img src="classes.png">
 
 ## Model Architecture
 
@@ -41,7 +42,7 @@ The model architecture is a hybrid approach combining the following deep learnin
 1. **3D CNN**: Used for extracting spatiotemporal features from video data. It captures the relationship between frames over time.
 2. **LSTM**: Long Short-Term Memory units help in capturing long-term temporal dependencies in video sequences.
 3. **GRU**: Gated Recurrent Units are employed for improving the temporal modeling aspect of the network.
-
+<img src="model_arch.png">
 ### Model Workflow
 - The model extracts spatial features from video using 3D convolutions.
 - Temporal dependencies are captured using LSTM and GRU layers.
