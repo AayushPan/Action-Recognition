@@ -43,10 +43,12 @@ The model architecture is a hybrid approach combining the following deep learnin
 2. **LSTM**: Long Short-Term Memory units help in capturing long-term temporal dependencies in video sequences.
 3. **GRU**: Gated Recurrent Units are employed for improving the temporal modeling aspect of the network.
 <img src="model_arch.png">
+
 ### Model Workflow
 - The model extracts spatial features from video using 3D convolutions.
 - Temporal dependencies are captured using LSTM and GRU layers.
 - The final predictions are made by a dense output layer.
+
 ### Model Training and Evaluation
 The model was trained on 100 videos per class total of 1000 videos and GPU P100 was used for training. Performance was evaluated using metrics such as accuracy, precision, recall, and F1-score.
 
