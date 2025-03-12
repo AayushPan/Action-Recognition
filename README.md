@@ -50,7 +50,7 @@ The model architecture is a hybrid approach combining the following deep learnin
 - The final predictions are made by a dense output layer.
 
 ### Model Training and Evaluation
-The model was trained on 100 videos per class total of 1000 videos and GPU P100 was used for training. Performance was evaluated using metrics such as accuracy, precision, recall, and F1-score.
+The model was trained on 100 videos per class, total of 1000 videos and GPU P100 was used for training. Performance was evaluated using metrics such as accuracy, precision, recall, and F1-score.
 
 ## Streamlit Dashboard
 The trained model was saved as an H5 file, which was then deployed as a web application using Streamlit. This web application allows users to upload a video file and receive action predictions from the model.
