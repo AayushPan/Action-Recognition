@@ -19,7 +19,7 @@ This project implements an action recognition system using a hybrid model of 3D 
 
 This project uses two publicly available datasets:
 - **UCF101**: A popular action recognition dataset containing 101 action categories.
-- **HMDB51**: A dataset with 51 action categories.
+- **[HMDB51](https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/)**: A dataset with 51 action categories.
 
 The following action classes were selected from these datasets to train the model. The dataset folders were renamed to simplify the process.
 ### 10 Action Classes Used
